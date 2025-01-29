@@ -1,0 +1,5 @@
+en:
+  theme_metadata:
+    description: Newsy homepage for your Discourse site
+    settings:
+      example_setting: A description of a setting.
