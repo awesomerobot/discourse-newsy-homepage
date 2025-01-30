@@ -18,7 +18,6 @@ export default class NewsstandHomepage extends Component {
       <div
         class="hero-grid {{if this.press.hotTopicsHasNoImages '--no-images'}}"
       >
-        <ConditionalLoadingSpinner @condition={{this.press.isLoadingHot}} />
         {{#each this.press.hotTopics as |topic index|}}
           <a
             href="/t/{{topic.slug}}/{{topic.id}}/{{topic.last_read_post_number}}"
@@ -41,7 +40,6 @@ export default class NewsstandHomepage extends Component {
         {{/each}}
       </div>
       <div class="latest-grid">
-        <ConditionalLoadingSpinner @condition={{this.press.isLoadingLatest}} />
         <h2><a href="/latest">{{i18n (themePrefix "latest_title")}}</a></h2>
         {{#each this.press.latestTopics as |topic index|}}
           <a
@@ -64,9 +62,6 @@ export default class NewsstandHomepage extends Component {
       </div>
 
       <div class="categories-grid">
-        <ConditionalLoadingSpinner
-          @condition={{this.press.isLoadingCategories}}
-        />
 
         {{#each this.press.categoryHotTopics as |set|}}
           <div class="categories-grid__category">
