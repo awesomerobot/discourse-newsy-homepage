@@ -4,7 +4,7 @@
   "authors": "Discourse",
   "theme_version": "0.0.1",
   "modifiers": {
-    "custom_homepage": "true",
-    "serialize_topic_excerpts": "true"
+    "serialize_topic_excerpts": "true",
+    "custom_homepage": "true"
   }
 }
