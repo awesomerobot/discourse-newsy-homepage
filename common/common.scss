@@ -115,7 +115,7 @@
       h2,
       .hero-grid__topic-excerpt,
       .hero-grid__topic-date {
-        grid-column: 12 / -1;
+        grid-column: 12 / 23;
 
         @include breakpoint(tablet) {
           grid-column: 1 / -1;
@@ -216,7 +216,7 @@
   &__topic {
     display: grid;
     grid-template-columns: subgrid;
-    grid-column: 2 / -1;
+    grid-column: 2 / 9;
     gap: 0.25em;
     padding-bottom: 1em;
 
