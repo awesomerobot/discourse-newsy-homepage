@@ -56,7 +56,7 @@
     gap: 0.5em;
 
     @include breakpoint(tablet) {
-      grid-column: 1 / 23;
+      grid-column: 1 / -1;
     }
 
     h2,
@@ -64,7 +64,7 @@
     &-date {
       grid-column: span 7;
       @include breakpoint(tablet) {
-        grid-column: span 23;
+        grid-column: span -1;
       }
     }
 
@@ -91,7 +91,7 @@
 
   &:not(.--no-images) {
     [data-index="0"] {
-      grid-column: 1 / 24;
+      grid-column: 1 / -1;
       gap: 1em 2em;
       grid-template-rows: auto auto 1fr;
       margin-bottom: 1em;
@@ -106,7 +106,7 @@
         max-height: 18em;
 
         @include breakpoint(tablet) {
-          grid-column: 1 / 24;
+          grid-column: 1 / -1;
           grid-row: 1 / 2;
         }
       }
@@ -117,7 +117,7 @@
         grid-column: 12 / -1;
 
         @include breakpoint(tablet) {
-          grid-column: 1 / 23;
+          grid-column: 1 / -1;
         }
       }
 
@@ -159,7 +159,7 @@
       h2,
       .hero-grid__topic-excerpt,
       .hero-grid__topic-date {
-        grid-column: 1 / 23;
+        grid-column: 1 / -1;
       }
     }
 
@@ -175,7 +175,7 @@
       }
 
       @include breakpoint(tablet) {
-        grid-column: 1 / 23 !important;
+        grid-column: 1 / -1 !important;
       }
     }
   }
@@ -186,13 +186,13 @@
   grid-template-columns: subgrid;
   grid-template-rows: repeat(10, auto) 1fr;
   grid-row: 2;
-  grid-column: 16 / 23;
+  grid-column: 16 / -1;
   gap: 2em 0;
   border-left: 1px solid var(--primary-low);
 
   @include breakpoint(tablet) {
     gap: 1em 0;
-    grid-column: 1 / 23;
+    grid-column: 1 / -1;
     border-left: none;
     border-bottom: 1px solid var(--primary-low);
   }
@@ -203,7 +203,7 @@
 
     @include breakpoint(tablet) {
       margin-top: 0;
-      grid-column: 1 / 23;
+      grid-column: 1 / -1;
       margin-bottom: 0.75em;
     }
 
@@ -220,7 +220,7 @@
     padding-bottom: 1em;
 
     @include breakpoint(tablet) {
-      grid-column: 1 / 23;
+      grid-column: 1 / -1;
     }
 
     h3,
@@ -229,7 +229,7 @@
       grid-column: 1 / -1;
 
       @include breakpoint(tablet) {
-        grid-column: 1 / 23;
+        grid-column: 1 / -1;
       }
     }
 
@@ -256,7 +256,7 @@
 
   @include breakpoint(tablet) {
     grid-row: 3;
-    grid-column: 1 / 23;
+    grid-column: 1 / -1;
   }
 
   &__category {
@@ -286,7 +286,7 @@
     gap: 2em 0;
 
     @include breakpoint(tablet) {
-      grid-column: 1 / 23;
+      grid-column: 1 / -1;
     }
 
     &.--no-images {
@@ -297,7 +297,7 @@
           grid-column: 1 / 8;
         }
         @include breakpoint(tablet) {
-          grid-column: 1 / 23 !important;
+          grid-column: 1 / -1 !important;
         }
       }
     }
@@ -309,7 +309,7 @@
         grid-template-rows: auto auto 1fr;
 
         @include breakpoint(tablet) {
-          grid-column: 1 / 23;
+          grid-column: 1 / -1;
         }
       }
     }
@@ -323,7 +323,7 @@
     gap: 0;
 
     @include breakpoint(tablet) {
-      grid-column: 1 / 23 !important;
+      grid-column: 1 / -1 !important;
     }
 
     h3 {
