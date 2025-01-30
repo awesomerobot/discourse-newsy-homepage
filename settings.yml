@@ -1,2 +1,5 @@
-example_setting:
-  default: true
+latest_topic_count:
+  default: 6
+
+categories_count:
+  default: 3

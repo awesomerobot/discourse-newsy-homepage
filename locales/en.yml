@@ -3,3 +3,6 @@ en:
     description: Newsy homepage for your Discourse site
     settings:
       example_setting: A description of a setting.
+  all_categories: View all categories
+  all_latest: View all recent topics
+  latest_title: Latest topics
