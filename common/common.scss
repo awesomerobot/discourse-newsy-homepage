@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(24, minmax(0, 1fr));
   gap: 2em 0;
+  padding-bottom: 2em;
 
   h2,
   h3 {
