@@ -344,10 +344,11 @@
       height: calc(100% - 1em);
       margin-top: 1em;
       object-fit: cover;
+      max-height: 16em;
 
       @include breakpoint(tablet) {
-        max-width: 500px;
-        max-height: 200px;
+        max-width: 30em;
+        max-height: 12em;
       }
     }
   }
