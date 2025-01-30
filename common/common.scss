@@ -65,7 +65,7 @@
     &-date {
       grid-column: span 7;
       @include breakpoint(tablet) {
-        grid-column: span -1;
+        grid-column: 1 / -1;
       }
     }
 
